@@ -17,7 +17,7 @@ Area=4\pi R^{2} .Since LED is not a point light source emitting at 360 degrees w
 Therefore ![image](https://github.com/am0032/TSL2591/assets/123314532/e50ba097-efd9-4a40-90ca-34b9f89b724a)
 
 
-Now an incandescent bulb of 710 lumens is used and various distances and corresponding lux values are calculated using the above formula 1.This gives us expected values of lux from the incandescent bulb.  
+Now an incandescent bulb of 710 lumens is used and various distances (from filament to sensor) and corresponding lux values are calculated using the above formula 1.This gives us expected values of lux from the incandescent bulb.  
 
 Sensor values for IR and Full spectrum (both IR and full spectrum receivers are available in TSL2591 as channel 1 and channel 0 respectively) values are noted at the same distances used for calculation in the previous step.These IR and Full spectrum values are then used for calculation of lux by the formula specified in adafruit library.  
 
