@@ -21,7 +21,10 @@ Now an incandescent bulb of 710 lumens is used and various distances and corresp
 
 Sensor values for IR and Full spectrum (both IR and full spectrum receivers are available in TSL2591 as channel 1 and channel 0 respectively) values are noted at the same distances used for calculation in the previous step.These IR and Full spectrum values are then used for calculation of lux by the formula specified in adafruit library.
 
-Now the equation for lux calculation is obtained from adafruit [https://github.com/adafruit/Adafruit_TSL2591_Library||TSL2591] library and then the values of IR and Visible is used for lux calculation. The formula for lux calculation used in the library is mentioned below:,Illuminance(Lux)=\frac{(ch0-ch1)*(1.0-\frac{ch1}{ch0})}{cpl}
+Now the equation for lux calculation is obtained from adafruit [https://github.com/adafruit/Adafruit_TSL2591_Library||TSL2591] library and then the values of IR and Visible is used for lux calculation. The formula for lux calculation used in the library is mentioned below:,
+
+![image](https://github.com/am0032/TSL2591/assets/123314532/03617fbf-889b-4c14-92c1-531ff118983c)  
+
 
 ch0 is sensor reading of full spectrum .
 
