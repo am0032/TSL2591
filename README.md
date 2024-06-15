@@ -58,6 +58,12 @@ New equation for lux calculation is:
 
 Where c =0.8678.  
 
+Steps to change the formula:  
+Go to Adafruit_TSL2591.cpp and change the formula there with the improved formula:  
+lux = (((0.8678 *(float)ch0) - (float)ch1)) * (1.0F - ((float)ch1 / (float)ch0)) / cpl;  
+Also, go to Adafruit_TSL2591.h  and change TSL2591_LUX_DF to 408.0 instead of 408.8. (This, I accidentally kept 408 when calibrating and might not make much of a difference)  
+
+
 
 Possible improvements:
 
