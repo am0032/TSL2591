@@ -4,7 +4,7 @@ Sensor Used: Adafruit TSL2591( [https://cdn-learn.adafruit.com/assets/assets/000
 
 We can calculate Illuminance (lux) values as follows:
 
-Illuminance(Lux)=\frac{(Power*Efficiency)}{Area}=\frac{LuminusFlux(Lumens)}{Area}
+Illuminance (Lux) = \frac{Power \times Efficiency}{Area} = \frac{Luminous Flux (Lumens)}{Area}
 
 (Power is in Watts and Efficiency is in lumen per watt.)
 
