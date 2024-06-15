@@ -4,7 +4,8 @@ Sensor Used: Adafruit TSL2591( [https://cdn-learn.adafruit.com/assets/assets/000
 
 We can calculate Illuminance (lux) values as follows:
 
-Illuminance (Lux) = (Power * Efficiency) / Area = Luminous Flux (Lumens) / Area
+![image](https://github.com/am0032/TSL2591/assets/123314532/cb681c80-f6f2-4aa6-9af3-5a090b2a9731)
+
 
 
 (Power is in Watts and Efficiency is in lumen per watt.)
@@ -13,7 +14,8 @@ Area illuminated by a point light source like the sun at a distance R for exampl
 
 Area=4\pi R^{2} .Since LED is not a point light source emitting at 360 degrees we take half this area. For an incandescent bulb we take full area since it emits light in all directions.
 
-Therefore Area_{LED}=\frac{(4\pi R^{2})}{2} and Area_{Incandescent}=4\pi R^{2}
+Therefore ![image](https://github.com/am0032/TSL2591/assets/123314532/e50ba097-efd9-4a40-90ca-34b9f89b724a)
+
 
 Now an incandescent bulb of 710 lumens is used and various distances and corresponding lux values are calculated using the above formula 1.This gives us expected values of lux from the incandescent bulb.
 
