@@ -1,5 +1,5 @@
 # TSL2591
-An improvement for TSL2591 sensor lux calculation  
+A Quick improvement for TSL2591 sensor lux calculation  
 Sensor Used: Adafruit TSL2591( [https://cdn-learn.adafruit.com/assets/assets/000/078/658/original/TSL2591_DS000338_6-00.pdf?1564168468||Data Sheet] )  
 
 We can calculate Illuminance (lux) values as follows:
