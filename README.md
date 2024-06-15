@@ -38,22 +38,24 @@ We now have a set of expected illuminance (lux) values from calculations using E
 
 Both curves are plotted below:
 
+![image](https://github.com/am0032/TSL2591/assets/123314532/e8a4ce5b-422a-4313-a8a0-0a2892152331)  
+
+
 
 
 The next step involved correcting the formula for illuminance calculation (Equation 3) by fitting its curve to the expected illuminance values from Equation 2. To achieve this, a random constant ‘c’ was added to Equation 3. This constant was assigned values to adjust the calculated lux with the aim of aligning it with the expected values around the 5k lux range. Higher lux values (closer to the source) were not used for correction due to the \frac{1}{r^{2}} dependence, which results in significant lux variations with minor changes in distance, potentially leading to substantial fluctuations.
 
 After curve fitting:
 
+![image](https://github.com/am0032/TSL2591/assets/123314532/ed8cc051-b638-4148-8d83-7d5234a440db)  
 
 
 New equation for lux calculation is:
 
-Illuminance(Lux)=\frac{((c*ch0)-ch1)*(1.0-\frac{ch1}{ch0})}{cpl}
+![image](https://github.com/am0032/TSL2591/assets/123314532/647b0bc8-fe0c-4833-973d-defe377789bc)
+
 
 Where c =0.8678.
-
-Shown below is the same correct plot lux unit values converted to ppfd units (with lux to ppfd conversion factor 0.070 as approximation).
-
 
 
 Possible improvements:
