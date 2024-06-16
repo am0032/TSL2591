@@ -2,7 +2,7 @@
 A Quick improvement for TSL2591 sensor lux calculation   (go to last part to see how to make these changes).
 Sensor Used: Adafruit TSL2591( [https://cdn-learn.adafruit.com/assets/assets/000/078/658/original/TSL2591_DS000338_6-00.pdf?1564168468||Data Sheet] )  
 
-We can calculate Illuminance (lux) values as follows:
+We can calculate Illuminance (lux) values as follows (1):
 
 ![image](https://github.com/am0032/TSL2591/assets/123314532/cb681c80-f6f2-4aa6-9af3-5a090b2a9731)
 
@@ -70,3 +70,6 @@ Possible improvements:
 1) Use a calibrated light meter for generating the expected values than from calculating.
 
 2) Use an optical bench to measure distances properly.
+
+References:
+Fiorentin, P., & Scroccaro, A. (2010). Detector-based calibration for illuminance and luminance meters—experimental results. IEEE Transactions on Instrumentation and Measurement, 59(5), 1375–1381. https://doi.org/10.1109/tim.2010.2045036 
