@@ -71,5 +71,5 @@ Possible improvements:
 
 2) Use an optical bench to measure distances properly.
 
-References:
-Fiorentin, P., & Scroccaro, A. (2010). Detector-based calibration for illuminance and luminance meters—experimental results. IEEE Transactions on Instrumentation and Measurement, 59(5), 1375–1381. https://doi.org/10.1109/tim.2010.2045036 
+References:  
+1) Fiorentin, P., & Scroccaro, A. (2010). Detector-based calibration for illuminance and luminance meters—experimental results. IEEE Transactions on Instrumentation and Measurement, 59(5), 1375–1381. https://doi.org/10.1109/tim.2010.2045036 
